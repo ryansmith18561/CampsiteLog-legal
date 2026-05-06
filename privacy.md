@@ -10,7 +10,7 @@ permalink: /privacy
 
 ## Who we are
 
-CampsiteLog is an iOS app for keeping a personal log of the campsites you have stayed at. It is built and maintained by Ryan Smith as a one-person project. Questions about this policy can be sent to **ryansmith1856@gmail.com**. This policy covers the CampsiteLog iOS app distributed through Apple's App Store; it does not cover any other product.
+CampsiteLog is an iOS app for keeping a personal log of the campsites you have stayed at. It is built and maintained by Ryan Smith as a one-person project. Questions about this policy can be sent to **ryansmith1856@proton.me**. This policy covers the CampsiteLog iOS app distributed through Apple's App Store; it does not cover any other product.
 
 ## What we store on your device
 
@@ -60,7 +60,7 @@ CampsiteLog is not directed at children under 13 and we do not knowingly collect
 - **Cancel a subscription.** iOS Settings → your name → Subscriptions → CampsiteLog.
 - **Export your data.** Settings → Your data → Export reviews (JSON) or Full backup (.campsitelog).
 
-If you want a copy of any data we hold for you in Cloud Backup, or you want it deleted from our servers, email **ryansmith1856@gmail.com** and we'll handle it within a reasonable time.
+If you want a copy of any data we hold for you in Cloud Backup, or you want it deleted from our servers, email **ryansmith1856@proton.me** and we'll handle it within a reasonable time.
 
 ## Changes to this policy
 
@@ -68,4 +68,4 @@ If this policy changes in any meaningful way, we'll update the effective date ab
 
 ## Contact
 
-**Ryan Smith** — ryansmith1856@gmail.com
+**Ryan Smith** — ryansmith1856@proton.me

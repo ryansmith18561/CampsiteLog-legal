@@ -10,4 +10,4 @@ This repository hosts the legal documents for the [CampsiteLog](https://github.c
 - **[Privacy Policy](privacy)**
 - **Terms of Use** — CampsiteLog uses [Apple's Standard EULA](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/).
 
-Questions? Email **ryansmith1856@gmail.com**.
+Questions? Email **ryansmith1856@proton.me**.
