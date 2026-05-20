@@ -6,7 +6,7 @@ permalink: /privacy
 
 # CampsiteLog Privacy Policy
 
-**Effective date:** May 6, 2026
+**Effective date:** May 20, 2026
 
 ## Who we are
 
@@ -26,16 +26,31 @@ By default, none of this is uploaded anywhere. Reviews stay on your phone unless
 
 ## What we collect when you opt in to Cloud Backup
 
-Cloud Backup is an optional, paid feature. When you turn it on, CampsiteLog uploads encrypted copies of your reviews and photos to our backend (hosted on Convex) and ties them to your Apple account through Sign in with Apple. The data is uploaded only so it can be restored on another device you sign in to. We do not analyze it, share it with advertisers, or sell it. You can stop backing up at any time by cancelling your subscription in iOS Settings → Apple ID → Subscriptions.
+Cloud Backup is an optional, paid feature. When you turn it on, CampsiteLog uploads copies of your reviews and photos to our backend (hosted on Convex) over an encrypted connection (TLS). Data is stored encrypted at rest by our hosting provider. It is
+not end-to-end encrypted — as the developer, I have technical access to it for support and operations purposes, but I do not analyze it, share it with advertisers, or sell it.
 
 ## What we do not collect
 
-CampsiteLog does not include third-party analytics, advertising SDKs, crash-reporting services, or trackers of any kind. We do not collect:
+CampsiteLog does not include advertising SDKs, advertising identifiers
+(IDFA), crash-reporting services, or third-party trackers. We do collect
+a small amount of product-interaction data to understand how new users
+move through the first-launch onboarding flow — see "Onboarding
+analytics" below. We do not collect:
 
 - Your contacts, calendars, or browsing history.
 - Advertising identifiers (IDFA).
 - Background location.
 - Anything from other apps on your device.
+
+## Onboarding analytics
+
+To improve the first-launch experience, CampsiteLog records anonymous
+events for each onboarding step (e.g. "viewed welcome screen", "skipped
+profile setup", "tapped subscribe"). Each install is identified by a
+random UUID generated on your device — it is not linked to your Apple
+ID, your name, your email, or any other identifying information. The
+events are sent to our backend (Convex). They contain no review content,
+no photos, and no location data.
 
 ## Location
 
