@@ -29,6 +29,15 @@ By default, none of this is uploaded anywhere. Reviews stay on your phone unless
 Cloud Backup is an optional, paid feature. When you turn it on, CampsiteLog uploads copies of your reviews and photos to our backend (hosted on Convex) over an encrypted connection (TLS). Data is stored encrypted at rest by our hosting provider. It is
 not end-to-end encrypted — as the developer, I have technical access to it for support and operations purposes, but I do not analyze it, share it with advertisers, or sell it.
 
+## Sign in with Apple
+
+Cloud Backup uses Sign in with Apple to identify your account on our backend. When you sign in, Apple sends us:
+
+- A stable, opaque user identifier (your "Apple user ID"). This is unique to CampsiteLog — Apple does not give us your real Apple ID.
+- Your name and email address, only if you choose to share them on the first sign-in. If you select "Hide My Email", Apple gives us a private relay address (e.g. `...@privaterelay.appleid.com`) and we never see your real email. You can change these choices later in iOS Settings → your name → Sign in with Apple → CampsiteLog.
+
+This information is stored on our Convex backend and, for offline display, in the iOS Keychain on your device. We use it to attach your Cloud Backup data to the right account; we do not send it to anyone else and we do not email you marketing.
+
 ## What we do not collect
 
 CampsiteLog does not include advertising SDKs, advertising identifiers
@@ -54,7 +63,12 @@ no photos, and no location data.
 
 ## Location
 
-CampsiteLog asks for "When in Use" location access. Your location is read only at the moment you tap the site-pin button in the Record screen, and only to capture a single coordinate for that one review. The coordinate is stored locally on your phone. It is uploaded only if Cloud Backup is enabled.
+CampsiteLog asks for "When in Use" location access. Your location is used in two ways, both only while you have the app open:
+
+- To bias campground search results to places near you when you're picking a campground for a new review.
+- To capture a single coordinate when you tap the site-pin button on the Record screen, so your review can remember which site you stayed at.
+
+In both cases the coordinate is used in-memory or stored locally on your phone. It is uploaded only if Cloud Backup is enabled. We do not track your location in the background.
 
 ## Photos and camera
 
@@ -75,7 +89,7 @@ CampsiteLog is not directed at children under 13 and we do not knowingly collect
 - **Cancel a subscription.** iOS Settings → your name → Subscriptions → CampsiteLog.
 - **Export your data.** Settings → Your data → Export reviews (JSON) or Full backup (.campsitelog).
 
-If you want a copy of any data we hold for you in Cloud Backup, or you want it deleted from our servers, email **ryansmith1856@proton.me** and we'll handle it within a reasonable time.
+If you want a copy of any data we hold for you in Cloud Backup, or you want it deleted from our servers, email **ryansmith1856+campsitelog@proton.me** and we'll handle it within a reasonable time.
 
 ## Changes to this policy
 
